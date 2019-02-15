@@ -1,12 +1,12 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: "AIzaSyC8-Zb33QVlaPviz2oMm8vOwcgPH-pf2gQ",
-  authDomain: "listinghippo.firebaseapp.com",
-  databaseURL: "https://listinghippo.firebaseio.com",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
   projectId: "listinghippo",
-  storageBucket: "listinghippo.appspot.com",
-  messagingSenderId: "800244260981"
+  storageBucket: "",
+  messagingSenderId: ""
 };
   firebase.initializeApp(config)
 
