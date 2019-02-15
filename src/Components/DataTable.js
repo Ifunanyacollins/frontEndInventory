@@ -85,8 +85,8 @@ class DataTable extends Component{
             <tr>
 
                {this.props.tableHead.map((head,index) =>(
-                <th >
-                <div key={index} >
+                <th key={index}  >
+                <div >
                 <span>{head}</span>
                 <span className="uk-flex uk-flex-column">
                 <span uk-icon="triangle-up" onClick={() => this.props.sortByUp(head)}></span>

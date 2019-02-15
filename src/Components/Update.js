@@ -34,7 +34,7 @@ class Update extends Component{
   
         this.setState((prevState)=>(
           {Images:[
-              ...prevState.imageUrl,
+              ...prevState.Images,
               downloadURL
           ]
          
